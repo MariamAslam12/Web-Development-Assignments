@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.heading{color: whitesmoke; font-size: 35px; font-style: normal;}
+.top{color:#6e0966; font-size: 20px; font-style: italic;}
+.rupees{color:#6e0966; font-size: 29px;font-weight: bolder;}
+table{background-color: rgb(224, 62, 116);}
+input[type="submit"]:active {
+            background-color: rgb(252, 252, 252);
+            color: rgb(110, 9, 102);  padding: 12px 30px; font-size: 18px; border: none;
+  padding: 14px 35px;   
+  font-size: 18px;
+        }
+ input[type="submit"]:hover {
+            background-color: #6e0966;
+            color: rgb(252, 252, 252); padding: 14px 35px;   
+  font-size: 18px;
+        }
+
+
+.font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:italic; color:white;
+}
+.size-box {
+     display:inline-block;
+      width: 35px;
+      height: 35px;
+      border: 1px solid #e0caca;
+      text-align: center;
+      line-height: 35px;
+      margin-right: 4px;
+      font-size: 12px;
+      color: #c8a5a5;
+    }
+    #size{color: #6e0966;}
