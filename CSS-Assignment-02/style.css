@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{background-color: pink;}
+.heading{color: rgb(255, 12, 223); font-size: 35px; font-style: normal;}
+.top{color:#6e0966; font-size: 20px; font-style: italic;}
+.rupees{color:#6e0966; font-size: 29px;font-weight: bolder;}
+
+table{background-color: rgb(255, 255, 255);}
+.font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:italic; color:#6e0966;
+}
+.size-box {
+     display:inline-block;
+      width: 35px;
+      height: 35px;
+      border: 1px solid #e0caca;
+      text-align: center;
+      line-height: 35px;
+      margin-right: 4px;
+      font-size: 12px;
+      color: #6e0966;
+    }
+    #size{color: #6e0966;}
+    .add-to-cart{padding: 16px 45px;           /* 🔴 size yahin set */
+  font-size: 14px;
+  background: #062766;
+  color: white;}
+
+  .add-to-cart:hover{
+    background-color:#6e0966; 
+    color:white;
+  }
