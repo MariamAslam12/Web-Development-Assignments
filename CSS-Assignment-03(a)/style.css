@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+body{background-color: #8D44AD;}
+
+.tabel{
+  display: flex;
+}
+h2{color: whitesmoke;
+font-family: "Sansita", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+text-align: center;}
+
+.box-1{
+   background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    margin: 50px 70px;
+    }
+
+.circle-1{
+  color: antiquewhite;
+   height: 150px;
+    width: 150px;
+     background-image: url(https://img.pikbest.com/photo/20241022/office-boy-in-photo_10993810.jpg!bw700);
+     background-size: cover;
+   background-position: center;
+   border-radius:50% ;
+   border: solid rgb(214, 70, 214);
+   margin: 20px auto;
+ 
+  } 
+  .n-1{
+    text-align: center;
+    color: palevioletred;
+    font-size: x-large;
+  }
+  p-1{
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: justify;
+  }
+ .Subscribe{padding: 16px 45px;         
+  font-size: 12`px;
+  background: #062766;
+  color: white;}
+  .Subscribe:hover{
+    background-color:#6e0966; 
+    color:white;
+  }
+
+  .Read-More{padding: 16px 45px;         
+  font-size: 12`px;
+background-color:white;
+  color: #6e0966;}
+
+  .box-2{
+   background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    margin: 50px 70px;
+    display: ;
+    }
+
+.circle-2{
+  color: antiquewhite;
+   height: 150px;
+    width: 150px;
+     background-image: url(https://media.istockphoto.com/id/1159212661/photo/portrait-of-successful-young-asian-businesswoman%C3%A2%C2%A0at-office-colleagues-in-background.jpg?s=612x612&w=0&k=20&c=iXO5_SFF7aEj2x7zLqdhW1ZxzEoPpkSYVo-xs6uAh-k=);
+     background-size: cover;
+   background-position: center;
+   border-radius:50% ;
+   border: solid rgb(214, 70, 214);
+   margin: 20px auto;
+ 
+  } 
+
+
+  .box-3{
+   background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    margin: 50px 70px;
+    }
+
+.circle-3{
+  color: antiquewhite;
+   height: 150px;
+    width: 150px;
+     background-image: url(https://img.pikbest.com/photo/20241022/office-boy-in-photo_10993810.jpg!bw700);
+     background-size: cover;
+   background-position: center;
+   border-radius:50% ;
+   border: solid rgb(214, 70, 214);
+   margin: 20px auto;
+  } 
+  h1{color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+text-align: center;}
+
+  
+  
+
+ 
