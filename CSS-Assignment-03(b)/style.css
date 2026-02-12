@@ -1,0 +1,58 @@
+.heading1{
+    background-color: #1D3055;
+    color: white;
+    height: 30px;
+    text-align: left;
+    
+}
+
+.courses{background-color: #24BDBA;
+    color: white;
+width: 100px;
+height: 100px;
+padding: 15px;}
+
+input,select{
+    padding: 15px;
+}
+.row1{
+    display: flex;
+
+}
+div{
+    padding: 0px ;
+    margin:  5px auto ;
+    text-align: center;
+}
+.courses1{
+  background-color: #24BDBA;
+    color: white;
+width: 100px;
+height: 100px;
+padding: 15px;
+ margin:  5px 20px auto ;
+ text-align: center;
+}
+.courses2{
+   background-color: #6b7070;
+    color: white;
+width: 100px;
+height: 100px;  
+}
+.outline{
+    text-align: left;
+}
+textarea{
+   width: 1400px;
+height: 100px;  
+}
+.save{
+    background-color: #031f5a;
+    color: white;
+  width: 180px;
+height: 60px; 
+ text-align: center;
+ border-radius: 10px; 
+}
+
+
