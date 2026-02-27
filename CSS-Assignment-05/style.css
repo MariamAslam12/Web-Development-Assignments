@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f3b1;
+}
+h1{
+    text-align: center;
+    text-shadow:2px 4px 5px  #7e0c16;
+    color: #800080;
+}
+.b1{
+    display: flex;
+}
+.box1{
+    width: 900px;
+    height: 200px;
+    padding-top: 30px;
+   padding-left: 30px;
+   position: sticky;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(168, 168, 2);
+    border-radius: 50%;
+    display: inline-block
+}
+.circle2{
+    position: absolute;
+    left: 70px;
+    z-index: 1;
+    background-color: rgb(194, 194, 56) !important; 
+}
+.circle3{
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    background-color: rgb(216, 216, 62) !important;
+}
+.circle4{
+    position: absolute;
+    left: 130px;
+    z-index: 1;
+     background-color: rgb(231, 231, 19) !important;
+}
+.circle5{
+    position: absolute;
+    left: 160px;
+    z-index: 1;
+      background-color: rgb(243, 243, 14) !important;
+}
+.circle6{
+    position: absolute;
+    left: 190px;
+    z-index: 1;
+      background-color: rgb(255, 255, 95) !important;
+}
+
+.box2{
+    width: 900px;
+    height: 200px;
+   padding-top: 30px;
+   padding-left: 30px;
+   position: relative;
+   display: flex;
+   
+}
+.circle7{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #023020;}
+    .circle8{
+         width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #355E3B;
+    }
+    .circle9{
+     width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #4B5320;    
+    }
+    .circle10{
+     width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 160px;
+    top: 40px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #50C878;       
+    }
+   .circle11{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #90EE90;       
+   }
+   .circle12{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 240px;
+    top: 40px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 28% 0, 89% 50%, 21% 100%, 0% 100%);
+    background-color: #98FB98;      
+   }
+   .box3{
+   width: 400px;
+    height: 200px;
+padding-top: 30px;
+   padding-left: 30px;
+   padding-bottom: 50px;
+   position: relative;}
+
+   .circle13{
+     position: absolute;
+    left: 40px;
+    top: 80px;
+    bottom: 40px;
+    z-index: 1;
+    bottom: 20px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#770737 ;   }
+.circle14{
+    width: 150px;
+    height: 150px;
+   position: absolute;
+    left: 80px;
+    top: 80px;
+    bottom: 20px;
+    z-index: ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#811331 ;     
+}
+.circle15{
+  position: absolute;
+    left: 120px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#AA336A   
+}
+.circle16{
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#FF69B4   
+}
+.circle17{
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#F4C2C2
+}
+.circle18{
+   position: absolute;
+    left: 240px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background-color:#FFB6C1  
+}
+
+.box4{
+    width: 900px;
+    height: 200px;
+   padding-top: 30px;
+   padding-left: 30px;
+   position: fixed;
+   display: flex;
+   
+}
+.circle21{
+   position: absolute;
+    left: 40px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#301934  
+}
+.circle22{
+   position: absolute;
+    left: 80px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#8806CE  
+}
+.circle23{
+   position: absolute;
+    left: 120px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#800080  
+}
+.circle24{
+   position: absolute;
+    left: 160px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#DA70D6 
+}
+.circle25{
+   position: absolute;
+    left: 200px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#CBC3E3 
+}
+.circle26{
+   position: absolute;
+    left: 240px;
+    top: 80px;
+    bottom: 20px;
+    z-index:1 ;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:#E6E6FA 
+}
