@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(92, 2, 92);
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+}
+.child{
+    width: 300px;
+    height: 400px;
+    background-color: #ba61ee;
+    position: absolute;
+  top: 40px;
+  right: 300px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.486) 1.95px 1.95px 2.6px;
+}
+.innerbox{
+    position: absolute;
+    padding-left: 230px;
+    padding-top: 40px;
+}
+h2{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Color{
+    color: purple;
+}
+ul{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+h3{
+    font-size: 36px;
+    color: purple;
+    padding: 20px;
+}
+p{
+    padding-top: 10px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-color:2px solid black;
+    border-radius: 10px;
+}
+.img1{
+   width: 50px;
+    height:50px; 
+    padding-top: 10px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.child1{
+     width: 300px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+  bottom: 40px;
+  right: 300px;
+  display: flex;
+ margin: 5px auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.486) 1.95px 1.95px 2.6px;
+}
+.ic--round-share {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81c1.66 0 3-1.34 3-3s-1.34-3-3-3s-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65c0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92'/%3E%3C/svg%3E");
+}
+.mdi--heart-outline {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3'/%3E%3C/svg%3E");
+}
+.cod{
+    color: gray;
+    font-size: 14px;
+}
+.heart{
+    display: inline;
+    justify-content: flex-end;
+    float: right;
+    margin: 10px auto;
+}
+.child img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 60px;
+    filter: drop-shadow(4px 4px 6px black );
+}
+.child1 img{
+    width: 60px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgba(51, 51, 51, 0.726) 0px 0px 0px 3px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+h4{
+    color: purple;
+}
+
+.para3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.para4{
+    padding-top: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    color: whitesmoke;
+}
+.img2{
+  padding-left: 10px; 
+}
+.sideimage{
+     margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+}
