@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --headingfontsize:26px;
+    --sidebarh2:18px;
+    --color:white;
+    --normaltext:18px;
+    --majorcolor:rgb(3, 84, 108);
+}
+body{
+    background-color: #C7D6D9;
+}
+.mainbox{
+    width: 1000px;
+    height: 570px;
+   position: absolute;
+   top: 40px;
+   left: 40px;
+   border-radius: 20px;
+    background-color: #F2F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sidebar{
+    width: 30%;
+    height: 90%;
+    background-color: rgb(3, 84, 108);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-radius: 20px;
+}
+.sidebar .one{
+    margin: 20px;
+   color: var(--color);
+   padding-top: 5%;
+   font-size: 14px;
+}
+.sidebar p{
+    color: white;
+    margin: 20px;
+}
+.sidebar h2{
+    margin: 20px;
+   padding-top: 70px;
+   font-weight: 200;
+   color: white;
+   font-size: var(--headingfontsize);
+}
+.form{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+  
+}
+input.em{
+    padding-bottom: 20px;
+    height: 60px;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+label{
+    padding-bottom: 10px;
+    font-size: var(--normaltext);
+    color: gray;
+    text-align: start;
+}
+.radio{
+    padding-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+
+.radio-card {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border: 1px solid #ccc; 
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.radio-card input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.radio-text {
+  font-size: 14px;
+  color: #333;
+}
+.radio-text:hover{
+    color: var(--majorcolor);
+}
+ .radio-card:hover{
+        border: 2px solid var(--majorcolor);
+    cursor: pointer;
+    outline: none;
+    }
+
+
+p{
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    background-color:var(--majorcolor);
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+h2{
+    padding-bottom: 5px;
+    font-size: var(--headingfontsize);
+}
+img{
+    width: 200px;
+    height: 180px;
+  position: absolute;
+ left: 40px;
+ border-radius: 10px;
+}
