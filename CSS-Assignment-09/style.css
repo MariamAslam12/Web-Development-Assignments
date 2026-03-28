@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --noramalfontsize:20px;
+    --headingsiize:76px
+}
+body{
+    width: 100vw;
+    height: 100vh;
+/* background: linear-gradient(90deg, rgb(124, 21, 110) 10%, 20%, rgba(115, 8, 85, 0.925) 15%, rgba(235, 14, 150, 1) 50%, rgba(133, 8, 85, 1) 98%); */
+background-image: url(https://img.freepik.com/premium-photo/dark-wall-halloween-background-concept-scary-background-horror-texture-banner_526818-623.jpg?semt=ais_incoming&w=740&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+h1{
+   text-align: center;
+   padding-top: 50px;
+   font-size: var(--headingsiize);
+   color: whitesmoke;
+}
+p{
+    text-align: center;
+    font-size: var(--noramalfontsize);
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(51, 188, 223);
+    display: flex;
+    border-radius: 15px;
+    position: relative;
+    transition: all ease;
+ }
+ .box:hover{
+width: 200px;
+height:250px ;
+/* animation: square 3s ease 0s infinite alternate forwards; */
+    transform: scale(1.3) translateZ(120px);
+} 
+ .smallbox{
+    width: 200px;
+    height: 85px;
+    background-color: rgb(1, 64, 80);
+    display: flex;
+   padding-bottom: 50px;
+   justify-content: center;
+   align-self: start;
+   border-radius: 15px;
+   position: absolute;
+    bottom: 0px;
+    gap: 40px;
+   }
+   
+  .mdi--color {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M17.5 12a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 17.5 9a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5m-3-4A1.5 1.5 0 0 1 13 6.5A1.5 1.5 0 0 1 14.5 5A1.5 1.5 0 0 1 16 6.5A1.5 1.5 0 0 1 14.5 8m-5 0A1.5 1.5 0 0 1 8 6.5A1.5 1.5 0 0 1 9.5 5A1.5 1.5 0 0 1 11 6.5A1.5 1.5 0 0 1 9.5 8m-3 4A1.5 1.5 0 0 1 5 10.5A1.5 1.5 0 0 1 6.5 9A1.5 1.5 0 0 1 8 10.5A1.5 1.5 0 0 1 6.5 12M12 3a9 9 0 0 0-9 9a9 9 0 0 0 9 9a1.5 1.5 0 0 0 1.5-1.5c0-.39-.15-.74-.39-1c-.23-.27-.38-.62-.38-1a1.5 1.5 0 0 1 1.5-1.5H16a5 5 0 0 0 5-5c0-4.42-4.03-8-9-8'/%3E%3C/svg%3E");
+}
+ .bi--card-image {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg fill='%23fff'%3E%3Cpath d='M6.002 5.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0'/%3E%3Cpath d='M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71l-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54L1 12.5v-9a.5.5 0 0 1 .5-.5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.line-md--link {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23fff' stroke-dasharray='28' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 6l2 -2c1 -1 3 -1 4 0l1 1c1 1 1 3 0 4l-5 5c-1 1 -3 1 -4 0M11 18l-2 2c-1 1 -3 1 -4 0l-1 -1c-1 -1 -1 -3 0 -4l5 -5c1 -1 3 -1 4 0'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='28;0'/%3E%3C/path%3E%3C/svg%3E");
+}
+.mingcute--earth-line {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z'/%3E%3Cpath fill='%23fff' fill-rule='nonzero' d='M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m1.683 13.95a29 29 0 0 1-3.366 0c.136.786.309 1.494.51 2.098c.252.756.53 1.296.79 1.626c.088.11.223.326.385.326c.145-.013.302-.227.38-.326c.26-.33.539-.87.79-1.626a14.4 14.4 0 0 0 .51-2.098Zm5.83-1.195q-.398.171-.833.315c-.852.284-1.848.512-2.94.67a17 17 0 0 1-.67 2.94q-.144.435-.315.833a8.02 8.02 0 0 0 4.758-4.758m-15.026 0a8.02 8.02 0 0 0 4.758 4.758a11 11 0 0 1-.315-.833a17 17 0 0 1-.67-2.94a17 17 0 0 1-2.94-.67q-.435-.144-.833-.315m5.585-4.683a25.5 25.5 0 0 0 0 3.856c1.282.097 2.574.097 3.856 0a25.5 25.5 0 0 0 0-3.856a25.5 25.5 0 0 0-3.856 0m5.878.245a29 29 0 0 1 0 3.366a14.4 14.4 0 0 0 2.098-.51c.756-.252 1.296-.53 1.626-.79c.11-.087.326-.224.326-.385c-.013-.145-.227-.302-.326-.38c-.33-.26-.87-.539-1.626-.79a14.4 14.4 0 0 0-2.098-.51Zm-7.9 0c-.786.136-1.493.309-2.098.51c-.756.252-1.295.53-1.626.79c-.24.19-.312.333-.323.368c-.045.15.23.323.323.397c.33.26.87.539 1.626.79c.605.202 1.312.375 2.098.51a28 28 0 0 1 0-3.364Zm1.195-5.83a8.02 8.02 0 0 0-4.758 4.758q.398-.171.833-.315a17 17 0 0 1 2.94-.67c.158-1.092.386-2.088.67-2.94q.144-.435.315-.833m5.51 0q.171.399.315.833c.284.852.512 1.848.67 2.94c1.092.158 2.088.386 2.94.67q.435.144.833.315a8.02 8.02 0 0 0-4.758-4.758M12 4c-.139 0-.312.237-.382.326c-.26.33-.539.87-.79 1.626a14.4 14.4 0 0 0-.51 2.098a28 28 0 0 1 3.364 0a14.4 14.4 0 0 0-.51-2.098c-.251-.756-.53-1.295-.79-1.626C12.312 4.236 12.14 4 12 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+.fluent--stack-48-filled {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23fff' d='M4 12.25A4.25 4.25 0 0 1 8.25 8h21.5A4.25 4.25 0 0 1 34 12.25v13.5A4.25 4.25 0 0 1 29.75 30H8.25A4.25 4.25 0 0 1 4 25.75zM9.375 32.5a4.25 4.25 0 0 0 3.874 2.5h16.5A9.25 9.25 0 0 0 39 25.75v-8.5a4.25 4.25 0 0 0-2.5-3.874V25.75a6.75 6.75 0 0 1-6.75 6.75zm5 5a4.25 4.25 0 0 0 3.874 2.5h11.5C37.62 40 44 33.62 44 25.75v-3.5a4.25 4.25 0 0 0-2.5-3.874v7.374c0 6.49-5.26 11.75-11.75 11.75z'/%3E%3C/svg%3E");
+}
+.uil--github {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.64 3.64 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2 2 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.1 2.1 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.9 3.9 0 0 1 1.025-2.688a3.6 3.6 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.43 9.43 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.6 3.6 0 0 1 .1 2.65a3.87 3.87 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.562 4.937a2.37 2.37 0 0 1 .674 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247'/%3E%3C/svg%3E");
+}
+.entypo-social--linkedin-with-circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z'/%3E%3C/svg%3E");
+}
+.icon-circle {
+    background-color:  rgb(6, 130, 161);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+.icons{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 40px;
+}
+
+.text{
+    font-size:27px;
+    color:rgb(255, 255, 255); 
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
