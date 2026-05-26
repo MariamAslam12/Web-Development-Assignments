@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-query.css">
+</head>
+
+<body>
+    <div class="container-xxl">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img src="./Assets/logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item pe-4">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link active" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" aria-current="page" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="icons">
+                        <span class="mdi--user-alert-outline pe-5"></span>
+                        <span class="mingcute--search-line pe-5"></span>
+                        <span class="solar--heart-outline pe-5"></span>
+                        <span class="ant-design--shopping-cart-outlined pe-5"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="shop-section ">
+            <div class="px-4 py-5 my-5 text-center ">
+                <h1 class="display-5 fw-semibold text-body-emphasis pt-3">Checkout</h1>
+                <div class="col-lg-6 mx-auto pt-3">
+                    <a class="link text-dark text-decoration-none fw-bold" href="./index.html">Home</a> >
+                    <a class="link text-dark text-decoration-none fw-normal " href="./shop.html">Checkout</a>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 ">
+            <div class="sec-5 d-lg-flex justify-content-between ">
+                <div class="billing-details w-lg-50">
+                    <h3 class="fw-bold pb-5">Billing Details</h3>
+                    <div class="name-sec d-lg-flex gap-4">
+                        <div class="fw-semibold"> First Name <br>
+                            <input type="text" name="" class="rounded-2 pt-4 mt-3 mb-5">
+                        </div>
+                        <div class="fw-semibold pb-5">last Name <br>
+                            <input type="text" name="" class="rounded-2 pt-4 mt-3">
+                        </div>
+                    </div>
+
+                    <div class="company-sec fw-semibold pb-5 ">
+                        Company Name (Optional) <br>
+                        <input type="text" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+
+                    <div class="dropdown pb-5 fw-semibold">
+                        Country / Region: <br>
+                        <select name=" Country / Region" id="" class="p-4 mt-3 w-50">
+                            <option value="" class="align-items-center"> Sri Lanka</option>
+                            <option value="">Pakistan</option>
+                        </select>
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        Street address<br>
+                        <input type="text" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        Town / City<br>
+                        <input type="text" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+                    <div class="dropdown pb-5 fw-semibold">
+                        Province<br>
+                        <select name=" Country / Region" id="" class="p-4 mt-3 w-50">
+                            <option value="" class="align-items-center">Western Province</option>
+                            <option value="">Sindh</option>
+                        </select>
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        ZIP Code<br>
+                        <input type="text" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        Phone<br>
+                        <input type="text" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        Email Address<br>
+                        <input type="email" name="" class="rounded-2 pt-4 mt-3 w-50">
+                    </div>
+                    <div class="company-sec fw-semibold pb-5 ">
+                        <br>
+                        <input type="text" placeholder="Additional Information" name=""
+                            class="rounded-2 p-4 mt-3 w-50 ">
+                    </div>
+                </div>
+                <div class="product-infor w-lg-50">
+                    <div class="pro d-flex justify-content-between mt-5 border-bottom">
+                        <div class="products">
+                            <h3 class="fw-semibold pb-2">Product</h3>
+                            <p class="pb-2" style="color: #9F9F9F;">Asgaard sofa <span style="color: black;"> x 1</span>
+                            </p>
+                            <p class="pb-2">Subtotal</p>
+                            <p class="pb-2">Total</p>
+                        </div>
+                        <div class="subtotal">
+                            <h3 class="fw-semibold pb-2">SubTotal</h3>
+                            <p class="pb-2">Rs. 250,000.00</p>
+                            <p class="pb-2">Rs. 250,000.00</p>
+                            <p class="pb-2 fs-3 fw-bold pb-5" style="color: #B88E2F;">Rs. 250,000.00</p>
+
+
+                        </div>
+                    </div>
+                    <label for="" class="pt-5">
+                        <input type="radio" name="Type" id="Type" value="Direct Bank Transfer ">Direct Bank Transfer <p
+                            class="pt-2" style="color: #9F9F9F;">Make your payment directly into our bank account.
+                            Please use your Order ID as the payment reference. Your order will not be shipped until the
+                            funds have cleared in our account.</p><br>
+                        <input class="" type="radio" name="Type" id="" value="Direct Bank Transfere">Direct Bank
+                        Transfer <br> <br>
+                        <input type="radio" name="Type" id="" value="Cash On Delivery">Cash On Delivery
+                    </label>
+                    <p class="pt-4 fw-normal">Your personal data will be used to support your experience throughout this
+                        website, to manage access to your account, and for other purposes described in our <span
+                            class="fw-bold">privacy policy.</span></p>
+                    <div class=" d-flex  justify-content-center p-5">
+                        <button class="Place-order p-4 w-50 rounded-2 fs-4 " style=" background-color: white;
+                       border: 2px solid black;">Place order</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="container px-4 py-5  mt-5 " id="Featured-3" style="background-color: #FAF3EA;">
+            <div class="row g-4 py-3 row-cols-1 row-cols-lg-4 ">
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1  me-3">
+                        <span class="material-symbols--trophy-outline"></span>
+                    </div>
+                    <div>
+                        <h3 class="fs-3 text-body-emphasis">High Quality</h3>
+                        <p class="fs-6 " style="color: #898989;">crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1  me-3">
+                        <span class="iconoir--twitter-verified-badge"></span>
+                    </div>
+                    <div>
+                        <h3 class="fs-3  text-body-emphasis">Warranty Protection</h3>
+                        <p class="fs-6 " style="color: #898989;">Over 2 years</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1  me-3">
+                        <span class="la--shipping-fast"></span>
+                    </div>
+                    <div>
+                        <h3 class="fs-3 text-body-emphasis">Free Shipping</h3>
+                        <p class="fs-6" style="color: #898989;">Order over 150 $</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1  me-3">
+                        <span class="streamline-plump--customer-support-3"></span>
+                    </div>
+                    <div>
+                        <h3 class="fs-3 text-body-emphasis">24 / 7 Support</h3>
+                        <p class="fs-6" style="color: #898989;">Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                <div class="col mb-3"> <a href="/"
+                        class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+                        aria-label="Bootstrap">
+                        <p class="fs-3 fw-bold">Funiro</p>
+                    </a>
+                    <p class="text-body-secondary">400 University Drive Suite 200 Coral Gables,
+                        FL 33134 USA</p>
+                </div>
+                <div class="col mb-3"></div>
+                <div class="col mb-3">
+                    <h5 class="mb-4" style="color: #9F9F9F;">Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-4 text-dark"><a href="./index.html"
+                                class="nav-link p-0 text-dark ">Home</a></li>
+                        <li class="nav-item mb-2"><a href="./shop.html" class="nav-link p-0 text-dark mb-4">Shop</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark mb-4">About</a></li>
+                        <li class="nav-item mb-2"><a href="./blog.html" class="nav-link p-0 text-dark mb-4">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-dark mb-4">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3">
+                    <h5 class="mb-4" style="color: #9F9F9F;">Help</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark mb-4">Payment Options</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark mb-4">Returns</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark mb-4">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./single-product.html"
+                                class="nav-link p-0 text-dark mb-4">Single Product</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./Checkout.html"
+                                class="nav-link p-0 text-dark mb-4">Checkout</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col mb-3">
+                    <form>
+                        <h5 class="mb-4" style="color: #9F9F9F;">Newsletter</h5>
+
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <div class="border-tag" style="color: #9F9F9F;">
+                                Enter Your Email Address
+                            </div>
+                            <div class="fw-bold border-tag ">Subsccribe</div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        <hr>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 ">
+            <p class="ps-5">2023 furino. All rights reverved</p>
+        </div>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

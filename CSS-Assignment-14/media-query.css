@@ -1,0 +1,20 @@
+@media (max-width:600px) {
+    .bi--view-list{
+        display: none;
+    }
+}
+@media (max-width:380px) {
+    .sec2{
+        align-items:flex-start;
+        justify-content:start!important;
+    }
+}
+@media (max-width:1200px) {
+    .images-product img{
+  display: flex;
+  flex-direction: row;
+    }
+}
+:root{
+    --text-color:#9F9F9F;
+}
